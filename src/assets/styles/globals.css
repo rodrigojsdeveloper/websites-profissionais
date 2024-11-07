@@ -16,6 +16,14 @@
   }
 }
 
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(90deg, #22c55e, #4ade80, #86efac, #a7f3d0, #bbf7d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
 * {
   border: 0;
   margin: 0;
